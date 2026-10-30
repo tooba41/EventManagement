@@ -97,3 +97,4 @@ FastAPI auto-generates docs at:
 - Swagger UI: https://eventhub-backend-m01d.onrender.com/docs
 
 ---
+EventHub automatic CI/CD deployment test.
