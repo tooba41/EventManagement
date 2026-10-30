@@ -79,6 +79,16 @@ export default function Home() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      {/* Welcome Banner */}
+      <div className="mb-8 rounded-2xl border border-amber-500/30 bg-gradient-to-r from-amber-500/10 via-ink-800 to-amber-500/10 p-5 text-center">
+        <p className="text-amber-400 text-sm font-bold tracking-widest uppercase mb-2">
+          ✨ Welcome to EventHub
+        </p>
+        <p className="text-ink-200 text-base">
+          Discover events, connect with people, and create unforgettable memories!
+        </p>
+      </div>
+
       {/* Hero */}
       <div className="text-center mb-12">
         <h1 className="font-display text-5xl md:text-6xl font-bold text-ink-50 mb-4 leading-tight">
